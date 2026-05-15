@@ -1,0 +1,58 @@
+{
+  "hash": "3ea25918",
+  "configHash": "d3b069fb",
+  "lockfileHash": "ad00b6c4",
+  "browserHash": "e9eb610d",
+  "optimized": {
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "ebf3b460",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "8aab8ab3",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "23e72921",
+      "needsInterop": true
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "85ae1c0e",
+      "needsInterop": true
+    },
+    "swiper/modules": {
+      "src": "../../node_modules/swiper/modules/index.mjs",
+      "file": "swiper_modules.js",
+      "fileHash": "ebef8aec",
+      "needsInterop": false
+    },
+    "swiper/react": {
+      "src": "../../node_modules/swiper/swiper-react.mjs",
+      "file": "swiper_react.js",
+      "fileHash": "00d06f23",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "react-CRcsxt9d": {
+      "file": "react-CRcsxt9d.js",
+      "isDynamicEntry": false
+    },
+    "react-dom-CzxYqxvR": {
+      "file": "react-dom-CzxYqxvR.js",
+      "isDynamicEntry": false
+    },
+    "utils-BOrfxPcU": {
+      "file": "utils-BOrfxPcU.js",
+      "isDynamicEntry": false
+    }
+  }
+}

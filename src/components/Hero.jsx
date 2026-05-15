@@ -21,52 +21,52 @@ const Hero = () => {
                     disableOnInteraction: false
                 }}>
                 <SwiperSlide>
-                    <div class="container">
-                        <div class="hero__inner">
-                            <div class="hero__image">
+                    <div className="container">
+                        <div className="hero__inner">
+                            <div className="hero__image">
                                 <img src={dog} alt="Dog" />
                             </div>
-                            <div class="hero__content">
-                                <span class="hero__label">SAVE 10 - 20% OFF</span>
-                                <h1 class="hero__title">
+                            <div className="hero__content">
+                                <span className="hero__label">SAVE 10 - 20% OFF</span>
+                                <h1 className="hero__title">
                                     Best Destination <br />
                                     For <span>Your Pets</span>
                                 </h1>
-                                <button class="btn">SHOP NOW →</button>
+                                <button className="btn">SHOP NOW →</button>
                             </div>
                         </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div class="container">
-                        <div class="hero__inner">
-                            <div class="hero__image">
+                    <div className="container">
+                        <div className="hero__inner">
+                            <div className="hero__image">
                                 <img src={dog} alt="Dog" />
                             </div>
-                            <div class="hero__content">
-                                <span class="hero__label">SAVE 10 - 20% OFF</span>
-                                <h1 class="hero__title">
+                            <div className="hero__content">
+                                <span className="hero__label">SAVE 10 - 20% OFF</span>
+                                <h1 className="hero__title">
                                     Best Destination <br />
                                     For <span>Your Pets</span>
                                 </h1>
-                                <button class="btn">SHOP NOW →</button>
+                                <button className="btn">SHOP NOW →</button>
                             </div>
                         </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div class="container">
-                        <div class="hero__inner">
-                            <div class="hero__image">
+                    <div className="container">
+                        <div className="hero__inner">
+                            <div className="hero__image">
                                 <img src={dog} alt="Dog" />
                             </div>
-                            <div class="hero__content">
-                                <span class="hero__label">SAVE 10 - 20% OFF</span>
-                                <h1 class="hero__title">
+                            <div className="hero__content">
+                                <span className="hero__label">SAVE 10 - 20% OFF</span>
+                                <h1 className="hero__title">
                                     Best Destination <br />
                                     For <span>Your Pets</span>
                                 </h1>
-                                <button class="btn">SHOP NOW →</button>
+                                <button className="btn">SHOP NOW →</button>
                             </div>
                         </div>
                     </div>

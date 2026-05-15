@@ -40,8 +40,10 @@ function App() {
         )
     }
 
-    const removeFromCart = (id) => {
-        setCartItems(prevItems => prevItems.filter(item => item.id !== id))
+    const removeSelectedFromCart = (idsToRemove) => {
+        setCartItems(prevItems =>
+            prevItems.filter(item => !idsToRemove.includes(item.id))
+        )
     }
 
     const clearCart = () => {
@@ -82,17 +84,17 @@ function App() {
                         } />
                         <Route path="/shop" element={<Shop />} />
                         <Route path="/cart" element={
-                            <Cart 
+                            <Cart
                                 cartItems={cartItems}
                                 updateQuantity={updateQuantity}
-                                removeFromCart={removeFromCart}
+                                removeSelectedFromCart={removeSelectedFromCart}
                                 clearCart={clearCart}
                                 addToWishlist={addToWishlist}
                                 wishlistItems={wishlistItems}
                             />
                         } />
                         <Route path="/wishlist" element={
-                            <Wishlist 
+                            <Wishlist
                                 wishlistItems={wishlistItems}
                                 addToWishlist={addToWishlist}
                                 addToCart={addToCart}

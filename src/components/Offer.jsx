@@ -1,5 +1,3 @@
-import React from 'react'
-
 function Offer() {
     return (
         <section className="offer">
@@ -14,5 +12,3 @@ function Offer() {
         </section>
     )
 }
-
-export default Offer
